@@ -16,6 +16,7 @@ header nav ul{
 }
 a{
     text-decoration: none;
+    color: darkgrey;
 }
 .logo-img{
     height: 2rem;
@@ -26,19 +27,28 @@ a{
 h1{
     font-size: 1rem;
 }
+.logopart-one{
+    color: black;
+    font-weight: 700;
+}
+.logopart-two{
+    color: red;
+    font-weight: 500;
+    color: darkgrey;
+}
 nav{
     padding-right: 1rem;
 }
 nav li{
     padding-left: 1rem;
     font-size: 1rem;
-
 }
 .mobile{
     display: none;
 }
 header .logopart-one{
     flex: 1;
+
 }
 /*end header*/
 .main-content{
