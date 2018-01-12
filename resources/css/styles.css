@@ -11,12 +11,16 @@ header{
     display: flex;
     align-items: center;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 header nav ul{
     display: flex;
 }
 a{
     text-decoration: none;
-    color: darkgrey;
+    color: rgb(117, 125, 127);
 }
 .logo-img{
     height: 2rem;
@@ -28,13 +32,12 @@ h1{
     font-size: 1rem;
 }
 .logopart-one{
-    color: black;
+    color: rgb(117, 125, 127);
     font-weight: 700;
 }
 .logopart-two{
-    color: red;
     font-weight: 500;
-    color: darkgrey;
+    color: rgb(194, 181, 204);
 }
 nav{
     padding-right: 1rem;
@@ -50,7 +53,53 @@ header .logopart-one{
     flex: 1;
 
 }
+@media only screen and (max-width: 480px){
+    .desktop,.logo-img, .logopart-one{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .mobile ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
 /*end header*/
 .main-content{
     background-color: lightgray;
 }
+.main-content img{
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+.banner-info{
+    width: 40%;
+    line-height: 3rem;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    margin-right: 10%;
+    
+}
+#button{
+    background-color: rgb(117, 125, 127);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: white;
+    text-align: center;
+}
+.banner-info h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(117, 125, 127);
+}
+.banner-info h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color:  rgb(194, 181, 204);
+}
+
+
