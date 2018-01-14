@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    line-height: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*header section*/
@@ -14,6 +15,7 @@ header{
 .column{
     display: flex;
     flex-direction: column;
+
 }
 header nav ul{
     display: flex;
@@ -32,7 +34,7 @@ h1{
     font-size: 1rem;
 }
 .logopart-one{
-    color: rgb(117, 125, 127);
+    color: rgb(79, 83, 83);
     font-weight: 700;
 }
 .logopart-two{
@@ -69,6 +71,7 @@ header .logopart-one{
     }
 }
 /*end header*/
+/*Main content*/
 .main-content{
     background-color: lightgray;
 }
@@ -78,14 +81,12 @@ header .logopart-one{
 }
 .banner-info{
     width: 40%;
-    line-height: 3rem;
     padding-left: 1.5rem;
-    font-size: 1.5rem;
     margin-right: 10%;
-    
+
 }
 #button{
-    background-color: rgb(117, 125, 127);
+    background-color: rgb(79, 83, 83);
     padding-top: .5rem;
     padding-bottom: .5rem;
     color: white;
@@ -93,13 +94,75 @@ header .logopart-one{
 }
 .banner-info h2{
     font-size: 3rem;
-    font-weight: 800;
-    color: rgb(117, 125, 127);
+    font-weight: 700;
+    color: rgb(79, 83, 83);
+    padding-bottom: 2rem;
 }
 .banner-info h3{
     font-size: 2rem;
-    font-weight: 500;
-    color:  rgb(194, 181, 204);
+    font-weight: 540;
+    color:  rgb(95, 100, 100);
+    padding-bottom: 2rem;
+}
+@media only screen and (max-width: 480px){
+    .main-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-content img{
+        width: 100%;
+    }
+    .banner-info{
+        width: fit-content;
+        margin-left: .5rem;
+    }
+    .banner-info h2{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .banner-info h3{
+        padding-bottom: 1.3rem;
+        font-size: 1.4rem;
+    }
+    .banner-info div{
+        padding-bottom: 2rem;
+    }
+}
+.sect-two{
+    width: 100%;
+    padding: 2rem 1.5rem;
+    align-items: flex-start;
+}
+.sect-two-banner{
+    width: 60%;
+    padding-right: 1.5rem;
+}
+.sect-two-info div{
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+.general-info img{
+    width: 35%;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+.general-info div{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.general-info div div{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
