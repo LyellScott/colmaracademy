@@ -91,6 +91,7 @@ header .logopart-one{
     padding-bottom: .5rem;
     color: white;
     text-align: center;
+    margin-bottom: 2rem;
 }
 .banner-info h2{
     font-size: 3rem;
@@ -139,6 +140,25 @@ header .logopart-one{
     width: 60%;
     padding-right: 1.5rem;
 }
+.sect-two-banner h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(79, 83, 83);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.sect-two-banner h4{
+    font-size: 1rem;
+    font-weight: 500;
+    color:rgb(64, 71, 91);
+    padding-bottom: 2rem;
+}
+.sect-two-banner p{
+    font-size: 1rem;
+    font-weight: 500;
+    color:rgb(64, 71, 91);
+    padding-bottom: 2rem;
+}
 .sect-two-info div{
     width: 100%;
     height: auto;
@@ -152,17 +172,58 @@ header .logopart-one{
     margin-left: 1rem;
 }
 .general-info div{
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .general-info div div{
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.naration h3{
+    font-size: 2rem;
+    font-weight: 540;
+    color:  rgb(95, 100, 100);
+    padding-bottom: .5rem;
+}
+.naration h4{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(64, 71, 91);
+    padding-bottom: .5rem;
+}
+.general-info:last-child{
+    background-color: lightgray;
+}
+.general-info:nth-child(1n + 2){
+    padding-top: 1rem;
+}
+nav{
+    color: lightblue;
+}
+@media only screen and (max-width: 480px) {
+    .desktop div{
+        display: none;
+    }
+    .general-info div{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem;
+        
+    }
+    .general-info img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .naration{
+        padding-left: 1rem;
+    }
+    .general-info:last-child{
+        background-color: white;
+    }
 }
 
 
