@@ -6,7 +6,7 @@ html {
 /*header section*/
 header{
     width: 100%;
-    background-color: white;
+    
 }
 .content{
     display: flex;
@@ -20,7 +20,7 @@ header{
 header nav ul{
     display: flex;
 }
-a{
+.head-anchor{
     text-decoration: none;
     color: rgb(117, 125, 127);
 }
@@ -74,16 +74,15 @@ header .logopart-one{
 /*Main content*/
 .main-content{
     background-color: lightgray;
+    width: 100%;
 }
 .main-content img{
     width: 60%;
     padding: 2rem 1.5rem;
 }
 .banner-info{
-    width: 40%;
     padding-left: 1.5rem;
-    margin-right: 10%;
-
+    padding-right: 10%;
 }
 #button{
     background-color: rgb(79, 83, 83);
@@ -133,12 +132,13 @@ header .logopart-one{
 }
 .sect-two{
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding-top: 2rem;
     align-items: flex-start;
 }
 .sect-two-banner{
     width: 60%;
     padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 .sect-two-banner h2{
     font-size: 3rem;
@@ -163,6 +163,7 @@ header .logopart-one{
     width: 100%;
     height: auto;
     align-items: flex-start;
+    
 }
 .general-info img{
     width: 35%;
@@ -193,24 +194,28 @@ header .logopart-one{
     color: rgb(64, 71, 91);
     padding-bottom: .5rem;
 }
+.naration nav a{
+    text-decoration: none;
+    color: blue;
+}
+
 .general-info:last-child{
     background-color: lightgray;
 }
 .general-info:nth-child(1n + 2){
     padding-top: 1rem;
 }
-nav{
-    color: lightblue;
-}
+
 @media only screen and (max-width: 480px) {
     .desktop div{
         display: none;
     }
+    .general-info{
+        margin: 1rem 1rem;          
+    }
     .general-info div{
         display: flex;
         flex-direction: column;
-        margin: 1rem 1rem;
-        
     }
     .general-info img{
         width: 100%;
@@ -219,11 +224,58 @@ nav{
         padding: 0;
     }
     .naration{
+        padding-top: 2rem;
         padding-left: 1rem;
     }
     .general-info:last-child{
         background-color: white;
     }
 }
+/*Start Learning*/
+.start-learning{
+    width: 100%;
+    background-color: lightgray;
+    
+}
+.start-learning h1{
+    padding-bottom: 2rem;
+    background-color: aquamarine;
+}
+.flex-cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-rows{
+    display: flex;
+}
+.courses img{
+    height: auto;
+}
+.mid{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.courses{
+    background-color: aquamarine;
+}
+.courses h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.courses h3{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}.courses h4{
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem; 
+}
+
+
+
 
 
