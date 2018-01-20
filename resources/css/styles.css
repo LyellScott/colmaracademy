@@ -276,6 +276,9 @@ header .logopart-one{
     padding-right: 1rem; 
 }
 /*Thesis***********/
+.thesis-content{
+    display: flex;
+}
 .thesis h1{
     text-align: center;
     padding-bottom: 2rem;
@@ -298,7 +301,6 @@ header .logopart-one{
 }
 .thesis.column{
     width: 40%;
-    
 }
 .exhibits div{
     display: flex;
@@ -314,14 +316,7 @@ header .logopart-one{
 }
 .exhibits div div{
     width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
-    
-    
- 
-
 .comment h3{
     font-size: 2rem;
     font-weight: 540;
@@ -336,8 +331,19 @@ header .logopart-one{
     padding-bottom: .5rem;
     padding-left: 1rem;
 }
-
-
-
+/*footer*******/
+footer div{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+}
+footer nav ul{
+    display: flex;
+}
+.head-anchor{
+    text-decoration: none;
+    color: rgb(117, 125, 127);
+}
 
 
