@@ -238,7 +238,6 @@ header .logopart-one{
 .start-learning{
     width: 100%;
     background-color: lightgray;
-    
 }
 .start-learning h1{
     padding-top: 2rem;
@@ -256,10 +255,15 @@ header .logopart-one{
 .content-rows{
     display: flex;
     margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.courses{
+    width: 32%;
 }
 .courses img{
     height: auto;
-    width: auto;
+    width: 100%;
 }
 .mid{
     margin-left: 2rem;
