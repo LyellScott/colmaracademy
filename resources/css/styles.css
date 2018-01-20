@@ -1,7 +1,7 @@
 html {
     font-size: 16px;
     line-height: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto";
 }
 /*header section*/
 header{
@@ -101,7 +101,7 @@ header .logopart-one{
 .banner-info h3{
     font-size: 2rem;
     font-weight: 540;
-    color:  rgb(95, 100, 100);
+    color: rgb(117, 125, 127);
     padding-bottom: 2rem;
 }
 @media only screen and (max-width: 480px){
@@ -134,6 +134,7 @@ header .logopart-one{
     width: 100%;
     padding-top: 2rem;
     align-items: flex-start;
+    padding-bottom: 2rem;
 }
 .sect-two-banner{
     width: 60%;
@@ -148,16 +149,16 @@ header .logopart-one{
     padding-top: 2rem;
 }
 .sect-two-banner h4{
-    font-size: 1rem;
-    font-weight: 500;
-    color:rgb(64, 71, 91);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(117, 125, 127);
     padding-bottom: 2rem;
 }
 .sect-two-banner p{
     font-size: 1rem;
     font-weight: 500;
     color:rgb(64, 71, 91);
-    padding-bottom: 2rem;
+    
 }
 .sect-two-info div{
     width: 100%;
@@ -189,14 +190,16 @@ header .logopart-one{
     padding-bottom: .5rem;
 }
 .naration h4{
-    font-size: 1rem;
-    font-weight: 500;
-    color: rgb(64, 71, 91);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(117, 125, 127);
     padding-bottom: .5rem;
 }
 .naration nav a{
     text-decoration: none;
-    color: blue;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(0, 162, 255);
 }
 
 .general-info:last-child{
@@ -238,8 +241,12 @@ header .logopart-one{
     
 }
 .start-learning h1{
+    padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: aquamarine;
+    font-size: 3rem;
+    font-weight: 700;
+    color:  rgb(95, 100, 100);
+
 }
 .flex-cols{
     display: flex;
@@ -252,28 +259,33 @@ header .logopart-one{
 }
 .courses img{
     height: auto;
+    width: auto;
 }
 .mid{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.courses{
-    background-color: aquamarine;
-}
+
 .courses h2{
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: 2rem;
+    color:  rgb(95, 100, 100);
 }
 .courses h3{
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: 1.5rem;
+    color: rgb(117, 125, 127);
 }.courses h4{
     padding-left: 1rem;
     padding-bottom: 1.5rem;
     padding-right: 1rem; 
+    font-size: 1.5rem;
+    color: rgb(117, 125, 127);
 }
 /*Thesis***********/
 .thesis-content{
@@ -283,21 +295,27 @@ header .logopart-one{
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color:  rgb(95, 100, 100);
 }
 .video-container{
     width: 60%;
     height: auto; 
-    background-color: brown; 
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 .video-container h2{
     padding-top: 1.5rem;
+    font-size: 2rem;
+    color:  rgb(95, 100, 100);
 }
 .video-container p{
     padding-top: .5rem;
     padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: rgb(117, 125, 127);
 }
 .thesis.column{
     width: 40%;
@@ -306,7 +324,6 @@ header .logopart-one{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: aqua;
 }
 .exhibits img{
     width: 35%;
@@ -314,22 +331,32 @@ header .logopart-one{
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+.exhibits div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .exhibits div div{
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
 .comment h3{
     font-size: 2rem;
-    font-weight: 540;
     color:  rgb(95, 100, 100);
     padding-bottom: .5rem;
     padding-left: 1rem;
 }
 .comment h4{
-    font-size: 1rem;
-    font-weight: 500;
-    color: rgb(64, 71, 91);
+    font-size: 1.5rem;
+    color: rgb(117, 125, 127);
     padding-bottom: .5rem;
     padding-left: 1rem;
+}
+.exhibits:first-child{
+    background-color: lightgray;
 }
 /*footer*******/
 footer div{
@@ -345,5 +372,6 @@ footer nav ul{
     text-decoration: none;
     color: rgb(117, 125, 127);
 }
+
 
 
