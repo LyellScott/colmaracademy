@@ -105,17 +105,17 @@ header .logopart-one{
     padding-bottom: 2rem;
 }
 @media only screen and (max-width: 480px){
-    .main-content{
+    .main-content div{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
     .main-content img{
         width: 100%;
+        padding: 0 0;
     }
-    .banner-info{
-        width: fit-content;
-        margin-left: .5rem;
+    .banner-info{  
+        margin-left: 1rem;
     }
     .banner-info h2{
         padding-top: 2rem;
@@ -123,12 +123,13 @@ header .logopart-one{
         font-size: 2rem;
     }
     .banner-info h3{
-        padding-bottom: 1.3rem;
-        font-size: 1.4rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.5rem;
     }
     .banner-info div{
         padding-bottom: 2rem;
     }
+
 }
 .sect-two{
     width: 100%;
@@ -290,6 +291,34 @@ header .logopart-one{
     padding-right: 1rem; 
     font-size: 1.5rem;
     color: rgb(117, 125, 127);
+}
+.mobile-two{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    .desktop-two{
+    display: none;
+    }
+    .mobile-two {
+    display: block;
+    margin: 2rem 1rem;
+    }
+    .mobile-two h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color:  rgb(95, 100, 100);
+    text-align: center;
+    }
+    .mobile-two h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color:  rgb(95, 100, 100);
+    background-color: lightgray;
+    margin-bottom: .5rem;
+    }
 }
 /*Thesis***********/
 .thesis-content{
