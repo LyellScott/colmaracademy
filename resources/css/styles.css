@@ -91,6 +91,7 @@ header .logopart-one{
     color: white;
     text-align: center;
     margin-bottom: 2rem;
+    
 }
 .banner-info h2{
     font-size: 3rem;
@@ -114,17 +115,21 @@ header .logopart-one{
         width: 100%;
         padding: 0 0;
     }
-    .banner-info{  
+    #button{  
         margin-left: 1rem;
+        
+        
     }
     .banner-info h2{
         padding-top: 2rem;
         padding-bottom: 2rem;
         font-size: 2rem;
+        margin-left: 1rem;
     }
     .banner-info h3{
         padding-bottom: 1.5rem;
         font-size: 1.5rem;
+        margin-left: 1rem;
     }
     .banner-info div{
         padding-bottom: 2rem;
@@ -391,6 +396,30 @@ header .logopart-one{
 .exhibits:first-child{
     background-color: lightgray;
 }
+@media only screen and (max-width: 480px) {
+    .thesis{
+        width: 100%;
+    }
+    .thesis h1{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .video-container{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .video-container h2{
+        display: none;
+    }
+    .video-container p{
+        display: none;
+    }
+    .exhibits{
+        display: none;
+    }
+}
 /*footer*******/
 footer div{
     padding-top: 1rem;
@@ -404,6 +433,15 @@ footer nav ul{
 .head-anchor{
     text-decoration: none;
     color: rgb(117, 125, 127);
+}
+@media only screen and (max-width: 480px) {
+    nav{
+        display: none;
+    }
+    .content{
+        font-size: .75rem;
+        padding-bottom: 1rem;
+    }
 }
 
 
