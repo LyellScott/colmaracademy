@@ -6,7 +6,7 @@ html {
 /*header section*/
 header{
     width: 100%;
-    
+
 }
 .content{
     display: flex;
@@ -84,14 +84,14 @@ header .logopart-one{
     padding-left: 1.5rem;
     padding-right: 10%;
 }
-#button{
+button{
     background-color: rgb(79, 83, 83);
     padding-top: .5rem;
     padding-bottom: .5rem;
     color: white;
     text-align: center;
     margin-bottom: 2rem;
-    
+
 }
 .banner-info h2{
     font-size: 3rem;
@@ -115,10 +115,8 @@ header .logopart-one{
         width: 100%;
         padding: 0 0;
     }
-    #button{  
+    button{
         margin-left: 1rem;
-        
-        
     }
     .banner-info h2{
         padding-top: 2rem;
@@ -134,11 +132,9 @@ header .logopart-one{
     .banner-info div{
         padding-bottom: 2rem;
     }
-
 }
 .sect-two{
     width: 100%;
-    padding-top: 2rem;
     align-items: flex-start;
     padding-bottom: 2rem;
 }
@@ -146,6 +142,10 @@ header .logopart-one{
     width: 60%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    margin-top: 2rem;
+}
+.sect-two-banner img{
+    width: 100%;
 }
 .sect-two-banner h2{
     font-size: 3rem;
@@ -164,20 +164,24 @@ header .logopart-one{
     font-size: 1rem;
     font-weight: 500;
     color:rgb(64, 71, 91);
-    
+}
+.mobile{
+    display: none;
+}
+.sect-two-info{
+    width: 40%;
+    margin-top: 1rem;
 }
 .sect-two-info div{
     width: 100%;
     height: auto;
     align-items: flex-start;
-    
+
 }
 .general-info img{
     width: 35%;
     height: auto;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
-    margin-left: 1rem;
+    padding: 1rem;
 }
 .general-info div{
     display: flex;
@@ -207,37 +211,49 @@ header .logopart-one{
     font-weight: 300;
     color: rgb(0, 162, 255);
 }
-
-.general-info:last-child{
+.general-info div:hover{
     background-color: lightgray;
 }
-.general-info:nth-child(1n + 2){
-    padding-top: 1rem;
-}
-
 @media only screen and (max-width: 480px) {
-    .desktop div{
+    .desktop{
         display: none;
     }
-    .general-info{
-        margin: 1rem 1rem;          
+    .mobile{
+        display: block;
+    }
+    .sect-two-info{
+        width: 100%;
     }
     .general-info div{
         display: flex;
         flex-direction: column;
+        align-content: flex-start;
+        
     }
     .general-info img{
-        width: 100%;
+        width: 90%;
         height: auto;
-        margin: 0;
-        padding: 0;
+        
+   }
+   .naration h3{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     }
-    .naration{
-        padding-top: 2rem;
-        padding-left: 1rem;
+    .naration h4{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     }
-    .general-info:last-child{
-        background-color: white;
+    .this-ank{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        color: rgb(0, 162, 255);
+        padding-bottom: 1rem;
+        padding-left: 2rem;
     }
 }
 /*Start Learning*/
@@ -275,7 +291,6 @@ header .logopart-one{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-
 .courses h2{
     padding-top: 1rem;
     padding-left: 1rem;
@@ -293,7 +308,7 @@ header .logopart-one{
 }.courses h4{
     padding-left: 1rem;
     padding-bottom: 1.5rem;
-    padding-right: 1rem; 
+    padding-right: 1rem;
     font-size: 1.5rem;
     color: rgb(117, 125, 127);
 }
@@ -339,7 +354,7 @@ header .logopart-one{
 }
 .video-container{
     width: 60%;
-    height: auto; 
+    height: auto;
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -393,7 +408,7 @@ header .logopart-one{
     padding-bottom: .5rem;
     padding-left: 1rem;
 }
-.exhibits:first-child{
+.exhibits:hover{
     background-color: lightgray;
 }
 @media only screen and (max-width: 480px) {
@@ -443,6 +458,3 @@ footer nav ul{
         padding-bottom: 1rem;
     }
 }
-
-
-
