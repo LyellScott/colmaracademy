@@ -65,9 +65,12 @@ header .logopart-one{
     }
     .mobile ul{
         display: flex;
+        flex-direction: row;
+        align-self: center;
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        height: 4rem;
     }
 }
 /*end header*/
@@ -223,29 +226,28 @@ button{
     }
     .sect-two-info{
         width: 100%;
+        margin-top: 0;
     }
     .general-info div{
         display: flex;
         flex-direction: column;
         align-content: flex-start;
-        
     }
     .general-info img{
         width: 90%;
-        height: auto;
-        
+        height: auto;  
    }
    .naration h3{
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-    .naration h4{
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+        .naration h4{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .this-ank{
         text-decoration: none;
@@ -254,6 +256,9 @@ button{
         color: rgb(0, 162, 255);
         padding-bottom: 1rem;
         padding-left: 2rem;
+    }
+    #final-ank{
+        padding-bottom: 2rem;
     }
 }
 /*Start Learning*/
@@ -450,11 +455,10 @@ footer nav ul{
     color: rgb(117, 125, 127);
 }
 @media only screen and (max-width: 480px) {
-    nav{
+    footer nav{
         display: none;
     }
-    .content{
-        font-size: .75rem;
-        padding-bottom: 1rem;
+    footer .content{
+        font-size: .75rem;      
     }
 }
