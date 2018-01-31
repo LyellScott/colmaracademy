@@ -91,9 +91,11 @@ button{
     background-color: rgb(79, 83, 83);
     padding-top: .5rem;
     padding-bottom: .5rem;
+    margin-right: .5rem;
     color: white;
     text-align: center;
     margin-bottom: 2rem;
+    border: 0;
 
 }
 .banner-info h2{
@@ -120,6 +122,10 @@ button{
     }
     button{
         margin-left: 1rem;
+    }
+    .banner-info{
+        padding-left: 1.5rem;
+        padding-right: 10%;
     }
     .banner-info h2{
         padding-top: 2rem;
